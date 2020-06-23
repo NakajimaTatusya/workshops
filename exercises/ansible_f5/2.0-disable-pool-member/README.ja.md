@@ -81,7 +81,7 @@
 ```
     bigip_device_facts:
       provider: "{{provider}}"
-      gather-subset:
+      gather_subset:
       - ltm-pools
 ```
 {% endraw %}
